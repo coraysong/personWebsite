@@ -53,7 +53,7 @@ h3 {
 
 
 .parent {
-        margin: 0px auto;
+        margin: auto;
         position: relative;
         float: left;
         left: 50%;
@@ -63,11 +63,11 @@ h3 {
         text-align: center;
         position: relative;
         left: -50%;
-        line-height: 200px;
+        line-height: 100px;
     }
     
     .parent a img {
-        vertical-align: -webkit-baseline-middle;
-        width: 15vw;
-        height: 15vw;
+        vertical-align: middle;
+        width: 10vw;
+        height: 10vw;
     }
