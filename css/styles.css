@@ -48,3 +48,26 @@ h3 {
   left: 300px;
   bottom: 300px;
 }
+
+
+
+
+.parent {
+        margin: 0px auto;
+        position: relative;
+        float: left;
+        left: 50%;
+    }
+    
+    .parent a {
+        text-align: center;
+        position: relative;
+        left: -50%;
+        line-height: 200px;
+    }
+    
+    .parent a img {
+        vertical-align: -webkit-baseline-middle;
+        width: 15vw;
+        height: 15vw;
+    }
