@@ -1,9 +1,13 @@
 body {
   margin: 0;
-  overflow-x:hidden;
   text-align: center;
   font-family: 'Merriweather', serif;
 }
+/** {*/
+/*    background: #000 !important;*/
+/*    color: #0f0 !important;*/
+/*    outline: solid #f00 1px !important;*/
+/*}*/
 
 h1 {
   font-size: 562.5%;
@@ -55,17 +59,8 @@ h3 {
 
 
 .parent {
-        margin: auto;
-        position: relative;
-        float: left;
-        left: 50%;
-    }
-    
-    .parent a {
-        text-align: center;
-        position: relative;
-        left: -50%;
-        line-height: 100px;
+        margin:auto;
+        position: middle;
     }
     
     .parent a img {
